@@ -1,1 +1,2 @@
-# udacity-portfolio-mockup
+# udacity-portfolio
+Udacity Portfolio Project
