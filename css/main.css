@@ -9,6 +9,12 @@
     box-sizing: border-box;
 } 
 
+img {
+	max-width: 100%;
+	max-height: 100%;
+
+}
+
 body {
 	background-color:#132E32 ;
 	color: #fff;
@@ -24,7 +30,7 @@ header {
 }
 
 #main-img {
-	height: 300px;
+	width: 980px;
 }
 
 .row {
@@ -46,7 +52,7 @@ header {
 }
 
 .row .col-4 {
-	width: 33.33%;
+	width: 30.33%;
 }
 
 .row .col-5 {
@@ -94,6 +100,9 @@ header {
 	height: 150px;
 }
 
+.img-row img {
+	width: 100%;
+}
 .desc-row {
 	height: 50px;
 	width: 100%;
