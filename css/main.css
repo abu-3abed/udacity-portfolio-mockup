@@ -141,6 +141,8 @@ header {
 	width: 30.33%;
 }
 
+/* source for this media queries templates: https://responsivedesign.is/develop/browser-feature-support/media-queries-for-common-device-breakpoints/ */
+
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (max-width : 767px) {
 /* Styles */
