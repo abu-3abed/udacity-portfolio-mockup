@@ -151,7 +151,7 @@ header {
 		height: auto;
 	}
 	.img-row img {
-		width: 75%;
+		max-width: 100%;
 		height: auto;
 	}
 	.row {
