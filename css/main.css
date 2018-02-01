@@ -1,6 +1,6 @@
-/** {
+* {
    outline: 1px solid red !important;
-}*/
+}
 
 * {
     -webkit-box-sizing: border-box;
@@ -95,7 +95,7 @@ header {
 }
 
 .margin {
-	margin: 10px;
+	margin: 34px 10px;
 }
 
 .work {
@@ -104,7 +104,7 @@ header {
 }
 
 .img-row {
-	height: 150px;
+	height: 181px;
 	display: flex;
 	justify-content: center;
 
@@ -144,14 +144,17 @@ header {
 /* source for this media queries templates: https://responsivedesign.is/develop/browser-feature-support/media-queries-for-common-device-breakpoints/ */
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (max-width : 767px) {
-/* Styles */
-	/*TODO: set flexbox column*/
-	.img-row {
-		height: auto;
-	}
+@media only screen and (max-width: 375px){
 	.img-row img {
 		max-width: 100%;
+		height: auto;
+	}
+}
+@media only screen and (max-width : 767px){
+/* Styles */
+	/*TODO: set flexbox column*/
+	.img-row img {
+		width: 375px;
 		height: auto;
 	}
 	.row {
@@ -171,9 +174,6 @@ header {
 	/*TODO: adjust margin: center*/
 	/*TODO: put flexbox align space between*/
 
-	.row {
-		justify-content: flex-start;
-	}
 	.work-col {
 		width: 45%;
 	}
